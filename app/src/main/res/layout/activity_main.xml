@@ -14,7 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/amiko"
-        android:text="NTD"
+        android:text="@string/ntd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="GO"
+        android:onClick="exchangeDollar"
+        android:text="@string/go"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="@+id/lblNTD"
         app:layout_constraintTop_toBottomOf="@+id/edtNTD" />
@@ -47,7 +48,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/andika"
-        android:text="JP"
+        android:text="@string/jp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnGO" />
@@ -58,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/andika"
-        android:text="None"
+        android:text="@string/none"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toEndOf="@+id/lblJP"
         app:layout_constraintTop_toTopOf="@+id/lblJP" />
@@ -69,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/andika"
-        android:text="US"
+        android:text="@string/us"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="@+id/lblJP"
         app:layout_constraintTop_toBottomOf="@+id/lblJP" />
@@ -80,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/andika"
-        android:text="None"
+        android:text="@string/none"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toEndOf="@+id/lblUS"
         app:layout_constraintTop_toTopOf="@+id/lblUS" />
